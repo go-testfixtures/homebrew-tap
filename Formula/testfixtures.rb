@@ -1,14 +1,14 @@
 class Testfixtures < Formula
   desc "Ruby on Rails like test fixtures for Go. Write tests against a real database"
   homepage "https://github.com/go-testfixtures/testfixtures"
-  version "3.7.0"
+  version "3.8.0"
 
   if OS.mac?
     url "https://github.com/go-testfixtures/testfixtures/releases/download/v#{version}/testfixtures_darwin_amd64.tar.gz"
-    sha256 "fd471735447fdae838a37da883865ccebbe5ae989074e963e64b9432c95172d6"
+    sha256 "7c4107e8595f9246589abca215703c43d4fb457e4e947e657c05aabcb7161026"
   elsif OS.linux?
     url "https://github.com/go-testfixtures/testfixtures/releases/download/v#{version}/testfixtures_linux_amd64.tar.gz"
-    sha256 "2d0449b31d83bab838ad16a67f5758903c17a86ef90c8642eaec51fc6596af86"
+    sha256 "8c2c4d570e1316799e0ed515987249ab42ca46bcf5a5f2d7b5dd21449bbf4975"
   end
 
   def install
